@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  background:#111;
+  color:white;
+  font-family:Arial;
+}
+
+.top{
+  padding:10px;
+}
+
+button{
+  padding:10px;
+}
+
+.videos{
+  display:flex;
+  gap:10px;
+  padding:10px;
+}
+
+video{
+  width:50%;
+  height:400px;
+  background:black;
+  border-radius:10px;
+}
