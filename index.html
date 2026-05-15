@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Meet</title>
+  <title>Private Meet</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="top">
-  <button id="start">Start Camera</button>
+<div class="controls">
+  <button id="cameraBtn">Camera Off</button>
+  <button id="muteBtn">Mute</button>
+  <button id="shareBtn">Share Screen</button>
 </div>
 
 <div class="videos">
   <video id="localVideo" autoplay muted playsinline></video>
-  <video id="remoteVideo" autoplay playsinline></video>
+</div>
+
+<div class="chat">
+  <div id="messages"></div>
+
+  <div class="chatControls">
+    <input id="messageInput" placeholder="Message">
+    <button id="sendBtn">Send</button>
+  </div>
 </div>
 
 <script src="script.js"></script>
